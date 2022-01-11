@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "K L Navaneet"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "K L Navaneet"
+description              : &description "Pursuing PhD in Computer Vision"
+url                      : https://klnavaneet.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "klnavaneet/klnavaneet.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  name             : "K L Navaneet"
+  avatar           : "bio-photo.jpg"
+  bio              : "Pursuing PhD in Computer Vision"
+  location         : "Baltimore County, MD, USA"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  pubmed           :
+  googlescholar    : "https://scholar.google.co.in/citations?user=StwqUaoAAAAJ&hl=en"
+  email            : "navanek1@umbc.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "klnavaneet"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/navaneetkl/"
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "@klnavaneet"
   vine             :
   weibo            :
   xing             :
@@ -175,16 +175,19 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
+    #  teaching:
+    #    output: false
+    #    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
+    #  portfolio:
+    #    output: false
+    #    permalink: /:collection/:path/
+    #  talks:
+    #    output: false
+    #    permalink: /:collection/:path/
+  pubs:
     output: true
     permalink: /:collection/:path/
 
@@ -210,14 +213,14 @@ defaults:
       layout: single
       author_profile: true
   # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+  #  - scope:
+  #      path: ""
+  #      type: teaching
+  #    values:
+  #      layout: single
+  #      author_profile: true
+  #      share: true
+  #      comments: true
   # _publications
   - scope:
       path: ""
@@ -228,22 +231,31 @@ defaults:
       share: true
       comments: true
   # _portfolio
+  #  - scope:
+  #      path: ""
+  #      type: portfolio
+  #    values:
+  #      layout: single
+  #      author_profile: true
+  #      share: true
+  #      comment: true
+  #  # _talks
+  #  - scope:
+  #      path: ""
+  #      type: talks
+  #    values:
+  #      layout: talk
+  #      author_profile: true
+  #      share: true
+  #  # _pubs
   - scope:
       path: ""
-      type: portfolio
+      type: pubs
     values:
-      layout: single
+      layout: pubs
       author_profile: true
       share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+      comments: true
 
 # Sass/SCSS
 sass:
