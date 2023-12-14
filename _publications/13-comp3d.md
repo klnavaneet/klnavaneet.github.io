@@ -17,5 +17,5 @@ paperurl: '/files/13-comp3d.pdf'
 link: 'https://arxiv.org/abs/2311.18159'
 github: 'https://github.com/UCDvision/compact3d'
 width: 600
-citation: '<strong>Navaneet K L</strong>*, Meibodi, K.P., Koohpayegani, S.A., Pirsiavash, H., (2023). &quot;Compact3D: Compressing Gaussian Splat Radiance Field Models with Vector Quantization&quot;.'
+citation: '<strong>Navaneet K L</strong>*, Meibodi, K.P.*, Koohpayegani, S.A., Pirsiavash, H., (2023). &quot;Compact3D: Compressing Gaussian Splat Radiance Field Models with Vector Quantization&quot;.'
 ---
