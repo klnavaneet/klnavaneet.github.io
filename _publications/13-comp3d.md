@@ -9,8 +9,7 @@ we introduce a simple vector quantization method based on
 K-means algorithm to quantize them.
 Then, we store the small codebook along with the index of
 the code for each Gaussian. Moreover, we compress the
-indices further by sorting them and using a method simi-
-lar to run-length encoding.'
+indices further by sorting them and using a method similar to run-length encoding.'
 date: 2023-12-14
 venue: ''
 paperurl: '/files/13-comp3d.pdf'
