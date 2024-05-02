@@ -9,5 +9,5 @@ paperurl: '/files/14-slowformer.pdf'
 link: 'https://arxiv.org/abs/2310.02544'
 github: 'https://github.com/UCDvision/SlowFormer'
 width: 600
-citation: '<strong>Navaneet K L</strong>*, Koohpayegani, S.A.*, Sleiman, E.*, Pirsiavash, H., (2024). &quot;SlowFormer: Adversarial Attack on Compute and Energy Consumption of Efficient Vision Transformers.&quot; <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>;.'
+citation: '<strong>Navaneet K L</strong>*, Koohpayegani, S.A.*, Sleiman, E.*, Pirsiavash, H., (2024). &quot;SlowFormer: Adversarial Attack on Compute and Energy Consumption of Efficient Vision Transformers.&quot; <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>.'
 ---
