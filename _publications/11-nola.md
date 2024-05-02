@@ -1,5 +1,5 @@
 ---
-title: 'NOLA: Networks as Linear Combination of Low Rank Random Basis'
+title: 'NOLA: Compressing LoRA using Linear Combination of Random Basis'
 collection: publications
 teaser: publications/11-nola
 excerpt: 'NOLA is a novel method for parameter-efficient fine-tuning of LLMs and
@@ -19,5 +19,5 @@ paperurl: '/files/11-nola.pdf'
 link: 'https://arxiv.org/abs/2310.02556'
 github: 'https://github.com/UCDvision/NOLA'
 width: 600
-citation: 'Koohpayegani, S.A.*, <strong>Navaneet K L</strong>*, Nooralinejad, P., Kolouri, S., Pirsiavash, H., (2023). &quot;NOLA: Networks as Linear Combination of Low Rank Random Basis&quot;.'
+citation: 'Koohpayegani, S.A.*, <strong>Navaneet K L</strong>*, Nooralinejad, P., Kolouri, S., Pirsiavash, H., (2024). &quot;NOLA: Compressing LoRA using Linear Combination of Random Basis&quot; <i> International Conference on Learning Representations (ICLR)</i>.'
 ---
